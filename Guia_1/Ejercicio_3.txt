@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] ar) {
+    Scanner reader = new Scanner(System.in);
+    int pares, impares, x, valor , n ;
+    pares=0;
+    impares=0;
+    x=1;
+     System.out.print("Cuantos numeros ingresara: ");
+      n=reader.nextInt();
+    while(x<=n){
+      System.out.print("Ingrese numeros enteros: ");
+      valor=reader.nextInt();
+      if(valor%2==0){
+       pares=pares+1;
+      }
+      else{
+        impares=impares+1;
+      }
+      x=x+1;
+
+    }
+    System.out.println("Cantidad de numeros pares: "+pares);
+    System.out.println("Cantidad de numeros impares: "+impares);
+    }
+}

@@ -1,0 +1,42 @@
+class Main {
+    public static void main(String[] ar) {
+    Scanner reader = new Scanner(System.in);
+    int cantidad1, cantidad2, cantidad3, cantidad4, x, n, y;
+    cantidad1=0;
+    cantidad2=0;
+    cantidad3=0;
+    cantidad4=0;
+    
+     System.out.print("Cuantos puntos seran: ");
+      n=reader.nextInt();
+     for(int f=1;f<=n;f++){
+      System.out.print("Ingrese la coordenada x: ");
+      x=reader.nextInt();
+      System.out.print("Ingrese la coordenada y: ");
+      y=reader.nextInt(); 
+      if(x>0 && y>0){
+       cantidad1++;
+      }else{
+        if(x<0 && y>0){
+       cantidad2++;
+      }else{
+        if(x<0 && y<0){
+       cantidad3++;
+      }else{
+        if(x>0 && y<0){
+       cantidad4++;
+      }
+      }
+      }
+      }
+    }
+ 
+
+    
+    System.out.println("Puntos en el primer cuadrante: "+cantidad1);
+    System.out.println("Puntos en el segundo cuadrante: "+cantidad2);
+    System.out.println("Puntos en el tercer cuadrante: "+cantidad3);
+    System.out.println("Puntos en el cuarto cuadrante: "+cantidad4);
+    
+    }  
+}
