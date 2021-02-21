@@ -1,0 +1,4 @@
+sv/edu/udb/guia_5/MainActivity.java
+ sv.edu.udb.guia_5.MainActivity
+sv/edu/udb/guia_5/BuildConfig.java
+ sv.edu.udb.guia_5.BuildConfig
