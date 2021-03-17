@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:id="@+id/texto_conectar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="-228dp"
+        android:layout_centerHorizontal="true"
+        android:text="Conectar"
+        android:textColor="#0E8AEE" />
+
+    <EditText
+        android:id="@+id/text1"
+        android:hint="Correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:padding="8dp"
+        android:background="#fff" />
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:padding="8dp"
+        android:background="#fff"
+        android:hint="Contraseña"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/text1" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ingresar"
+        android:textColor="#fff"
+        android:layout_below="@+id/text2"
+        android:layout_marginTop="17dp"
+        android:layout_alignStart="@+id/text2"
+        android:layout_alignEnd="@+id/text2"
+        android:layout_alignLeft="@+id/text2"
+        android:layout_alignRight="@+id/text2" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="¿Olvidaste tu constraseña?"
+        android:textColor="#0E8AEE" />
+
+</RelativeLayout>
